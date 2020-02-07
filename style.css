@@ -21,6 +21,12 @@ ul {
   list-style-type: none;
 }
 
+.apple-logo img {
+  max-width: 18px;
+  margin-top: 6px;
+  color:  rgb(255, 255, 255);
+}
+
 nav {
   width: 980px;
   margin: 80px auto 40px auto;
@@ -38,6 +44,7 @@ nav {
 .fa-apple {
   padding-top: 0.2rem;
   font-size: 1.5rem;
+  color: red;
 }
 
 .nav-buttons li {
