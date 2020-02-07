@@ -41,12 +41,6 @@ nav {
   cursor: pointer;
 }
 
-.fa-apple {
-  padding-top: 0.2rem;
-  font-size: 1.5rem;
-  color: red;
-}
-
 .nav-buttons li {
   border-right: 0.2px solid rgba(255, 255, 255, 0.925);
   width: 100%;
@@ -87,7 +81,7 @@ nav {
   padding-left: 6px;
 }
 
-.paragraphs {
+.text-image {
   width: 80%;
   margin: 0 auto;
   display: grid;
@@ -96,47 +90,21 @@ nav {
   align-items: center;
   padding-top: 48px;
 }
-.welcome-section {
-  height: 80vh;
-  background-image: url('../images/navigator.jpg');
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center bottom;
-}
 
-.welcome-text {
-  padding: 120px 0;
-  text-align: center;
-  font-weight: 100;
-  color: #fff;
-}
-
-.welcome-text h1 {
-  font-weight: 100 !important;
-  font-size: 65px;
-  overflow: hidden;
-}
-
-.welcome-text h2 {
-  font-weight: 100 !important;
-  font-size: 35px;
-}
-
-.welcome-text h3 {
-  font-weight: 100 !important;
-  font-size: 25px;
-}
-
-/*.first-verse {
+.h1 {
   height: 100px;
   overflow: hidden;
 }
 
-.third-verse {
+.h2 {
+  height: 80px;
+  overflow: hidden;
+}
+
+.h3 {
   height: 32px;
   overflow: hidden;
-}*/
+}
 
 .bottom-boxes {
   display: grid;
@@ -145,47 +113,54 @@ nav {
   height: 200px;
 }
 
-.box1 {
+.first-box {
   background-image: url(https://web.archive.org/web/20140301004349im_/http://images.apple.com/home/images/promo_iphone5s.jpg);
   background-repeat: no-repeat;
 }
 
-.box2 {
+.second-box {
   background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_iphone5c.jpg);
   background-repeat: no-repeat;
 }
 
-.box3 {
+.third-box {
   background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_30_years.jpg);
   background-repeat: no-repeat;
 }
 
-.box4 {
+.fourth-box {
   background-image: url(https://web.archive.org/web/20140301004610im_/http://images.apple.com/home/images/promo_supplier_responsibility.jpg);
   background-repeat: no-repeat;
 }
 
 footer {
   padding-top: 1.5rem;
-  width: 985px;
+  width: 895px;
   margin: 0 auto;
   font-size: 0.65rem;
   color: rgb(158, 158, 158);
   font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
-.ft-container a {
+.footer-container a {
   text-decoration: none;
-  color: rgb(39, 175, 243);
+  color: #08c;
 }
 
 .ft-container {
   display: flex;
-  justify-content: space-between;
+  justify-content:space-between;
 }
 
-.top-left {
+.footer-left {
   padding-top: 1.3px;
+}
+
+.footer-right {
+  color: #08c;
+  text-decoration: none;
+  float: right;
+  text-align: right;
 }
 
 .bottom-left {
@@ -194,10 +169,10 @@ footer {
 
 .bottom-left a {
   text-decoration: none;
-  color: rgb(39, 175, 243);
+  color: #08c;
 }
 
-#last {
+#us-flag {
   vertical-align: middle;
 }
 
