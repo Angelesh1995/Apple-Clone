@@ -152,6 +152,11 @@ footer {
   justify-content: space-between;
 }
 
+.bottom-left a {
+  text-decoration: none;
+  color: #08c;
+}
+
 footer a:hover {
   text-decoration: underline;
 }
@@ -175,10 +180,7 @@ footer a:hover {
   padding-top: 1rem;
 }
 
-.bottom-left a {
-  text-decoration: none;
-  color: #08c;
-}
+
 
 #us-flag {
   vertical-align: middle;
