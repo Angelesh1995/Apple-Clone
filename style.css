@@ -137,8 +137,7 @@ table {
   display: grid;
   grid-template-rows: repeat(6, 1fr);
   grid-gap: 2px;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
-    sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .blackbox {
