@@ -1,3 +1,12 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: inherit;
+}
+
 .container {
   width: 1440px;
   height: 840px;
@@ -5,7 +14,8 @@
   display: grid;
   grid-template-rows: repeat(6, 1fr);
   grid-gap: 2px;
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
+    sans-serif;
 }
 
 .blackbox {
@@ -25,12 +35,20 @@ ul {
   max-width: 18px;
   margin-top: 6px;
   color: rgb(255, 255, 255);
+  size: 20px;
 }
 
 nav {
   width: 980px;
   margin: 80px auto 40px auto;
-  background-image: linear-gradient(#686868, #8a8a8a 1%, #5c5c5c 1%, #808080 50%, #707070 50%, #696969 100%);
+  background-image: linear-gradient(
+    #686868,
+    #8a8a8a 1%,
+    #5c5c5c 1%,
+    #808080 50%,
+    #707070 50%,
+    #696969 100%
+  );
   border-radius: 5px;
 }
 
@@ -139,7 +157,8 @@ footer {
   margin: 0 auto;
   font-size: 0.65rem;
   color: rgb(158, 158, 158);
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana,
+    sans-serif;
 }
 
 .footer-container a {
