@@ -201,10 +201,7 @@ footer {
   color: #08c;
 }
 
-.ft-container {
-  display: flex;
-  justify-content: space-between;
-}
+
 
 .bottom-left a {
   text-decoration: none;
@@ -228,7 +225,7 @@ footer a:hover {
   color: #08c;
   text-decoration: none;
   float: right;
-  text-align: right;
+  justify-items: right;
 }
 
 .bottom-left {
@@ -238,4 +235,5 @@ footer a:hover {
 
 #us-flag {
   vertical-align: middle;
+  margin-left: 5px;
 }
