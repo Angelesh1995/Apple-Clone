@@ -6,7 +6,8 @@ This project consists of building a webpage using images as a background and add
 - HTML
 - CSS
 
-Link to live page
+# Link to live page
+
 
 
 # Author
