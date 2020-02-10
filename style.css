@@ -1,14 +1,50 @@
-*,
-*::before,
-*::after {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  font-size: inherit;
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
 .container {
-  width: 1440px;
+  max-width: 1440px;
+  width: 100%;
   height: 840px;
   margin: 0 auto;
   display: grid;
@@ -35,7 +71,6 @@ ul {
   max-width: 18px;
   margin-top: 6px;
   color: rgb(255, 255, 255);
-  size: 20px;
 }
 
 nav {
@@ -153,7 +188,7 @@ nav {
 
 footer {
   padding-top: 1.5rem;
-  width: 895px;
+  width: 980px;
   margin: 0 auto;
   font-size: 0.65rem;
   color: rgb(158, 158, 158);
@@ -186,6 +221,7 @@ footer a:hover {
 
 .footer-left {
   padding-top: 1.3px;
+  display: inline-block;
 }
 
 .footer-right {
@@ -197,6 +233,7 @@ footer a:hover {
 
 .bottom-left {
   padding-top: 1rem;
+  padding-bottom: 2rem;
 }
 
 #us-flag {
